@@ -10,7 +10,7 @@ window.onload = function() {
         drawGaze(x, y);
     }).begin()
     .then(() => {
-        console.log("WebGazer started successfully");
+        console.log("WebGazer started very successfully");
     })
     .catch((err) => {
         console.error("Error starting WebGazer:", err);
